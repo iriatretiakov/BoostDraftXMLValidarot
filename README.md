@@ -4,7 +4,7 @@ XMLValidation is consist with two main parts, Parser and Validator. The Parser r
 ## Parser
 Is use a Finite State Machine approach to populate array of Elements with the corresponding type of node (Opening, Closing).
 FSM scheme:
-![FSM](/sources/scheme.png)
+![FSM](/sources/scheme.jpg)
 
 ## Validator
 The Validator receive a list of Elements and use stack to decided if the input is valid. Element is store in the stack if it type is Opening. If matching element with type Closing is received, that element is removed from th stack, this approach guarantees nested order of xml nodes.
