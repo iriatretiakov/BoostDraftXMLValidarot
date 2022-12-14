@@ -3,7 +3,9 @@ XMLValidation is consist with two main parts, Parser and Validator. The Parser r
 
 ## Parser
 Is use a Finite State Machine approach to populate array of Elements with the corresponding type of node (Opening, Closing).
+
 FSM scheme:
+
 ![FSM](/sources/scheme.jpg)
 
 ## Validator
